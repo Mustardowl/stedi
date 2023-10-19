@@ -1,7 +1,7 @@
-import sayHellos from "../utils/helloarianne.mjs";
+import sayHello from "../utils/helloarianne.mjs";
 import assert from 'assert';
 
 it ("Tests Hello Arianne", ()=>{
-    const hello = sayHellos();
+    const hello = sayHello();
     assert.equal(hello, "Hello Arianne");
 });
