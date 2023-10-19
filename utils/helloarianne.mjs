@@ -1,4 +1,4 @@
-const sayHellos=()=>{
+const sayHello=()=>{
     return "Hello Arianne";
 }
 export default sayHello
